@@ -4,6 +4,10 @@ Memcached is an in-memory key-value store for small chunks of arbitrary data (st
 
 Small image (~ 4 MB) for Memcached based on Alpine.
 
+## Usage
+
+    docker run -it --rm -p 11211:11211 twofour/memcached
+
 ## Environment variables
 
 ### MEMCACHED_MEMORY_LIMIT
